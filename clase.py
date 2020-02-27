@@ -1,4 +1,15 @@
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
+# Autor: Paloma Argelia Cueto González, A01746765
+# Descripcion: Calcular el total de alumnos inscritos y el porcentaje
+# de hombres y mujeres.
 
-# Escribe tu programa después de esta línea.
+mujeres = int (input("Mujeres inscritas: "))
+hombres = int (input ("Hombres inscritos: "))
+
+total = hombres + mujeres
+
+pmujeres = (mujeres/total)*100
+phombres = (hombres/total)*100
+
+print ("Total de inscritos: ", total)
+print ("Porcentaje de mujeres: %.1f" % (pmujeres),"%")
+print ("Porcentaje de hombres: %.1f " % (phombres),"%")
